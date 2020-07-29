@@ -9,6 +9,8 @@ sections:
   label: Articles
   create: documents
   match: "*.md"
+  templates:
+  - article
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
